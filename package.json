@@ -1,0 +1,22 @@
+{
+  "name": "device-simulator",
+  "version": "1.0.0",
+  "description": "Internet of Wine Device Simulator",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iowine/device-simulator.git"
+  },
+  "keywords": [
+    "typescript"
+  ],
+  "author": "Andrejus Kostarevas",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/iowine/device-simulator/issues"
+  },
+  "homepage": "https://github.com/iowine/device-simulator#readme"
+}
