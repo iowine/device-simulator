@@ -10,7 +10,7 @@ class EnvironmentVariable {
     constructor(value: number) {
         this.value = value
         this.changeVelocity = 0
-        this.changeAcceleration = Math.random() * 2 - 1
+        this.changeAcceleration = Math.random() * 4 - 2
     }
 
     public get(): number {

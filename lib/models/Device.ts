@@ -73,7 +73,7 @@ class Device {
         console.log('Device', colors.cyan(`#<${this.id}>`), colors.magenta('waiting...'))
 
         /* Upload again */
-        setTimeout(this.upload, this.delay * 60 * 1000)
+        setTimeout(() => { this.upload() }, this.delay * 60 * 1000)
 
     }
 
